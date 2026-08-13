@@ -1,5 +1,5 @@
 /* ============================================
-   The Fire Grill Hotel — Site JS
+   Mean Grill — Site JS
    ============================================ */
 
 // Mobile menu
@@ -33,7 +33,7 @@ if (contactForm) {
     const name = document.getElementById("c-name").value.trim();
     const phone = document.getElementById("c-phone").value.trim();
     const msg = document.getElementById("c-msg").value.trim();
-    const full = `Hi The Fire Grill Hotel! My name is ${name}.\nPhone: ${phone}\n\n${msg}`;
+    const full = `Hi Mean Grill! My name is ${name}.\nPhone: ${phone}\n\n${msg}`;
     window.open(`https://wa.me/254758922294?text=${encodeURIComponent(full)}`, "_blank");
     if (formNote) {
       formNote.textContent = "✅ Opening WhatsApp — just hit send!";
